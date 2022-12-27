@@ -2,4 +2,9 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var buildArray = nums => nums.map(e => nums[e]);
+var buildArray = function(nums) {
+    let ans = [];
+    for(let i = 0; i < nums.length; i++)
+        ans.push(nums[nums[i]]);
+    return ans;
+};
