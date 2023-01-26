@@ -1,9 +1,5 @@
 class Solution {
     public int maximumWealth(int[][] accounts) {
-        int max = 0;
-        for(int[] customer: accounts) {
-            max = Math.max(max, Arrays.stream(customer).sum());   
-        }
-        return max;
+        return Arrays.stream(accounts).mapToInt(i -> Arrays.stream(i).sum()).max().getAsInt();
     }
 }
