@@ -7,5 +7,4 @@ class Solution {
         return max;
     }
 }
-
 // return Stream.of(sentences).mapToInt(s -> s.split(" ").length).max().getAsInt();
