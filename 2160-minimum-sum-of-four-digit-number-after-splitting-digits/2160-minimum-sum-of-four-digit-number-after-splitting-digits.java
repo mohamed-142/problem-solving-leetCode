@@ -1,8 +1,14 @@
 import java.util.*;
 class Solution {
     public int minimumSum(int num) {
-        char[] digits = ("" + num).toCharArray();
+        int[] digits = new int[4];
+        for (int i = 0; i < 4; i++) {
+            digits[i] = num % 10;
+            num /= 10;
+        }
+        
         Arrays.sort(digits);
-        return Integer.parseInt("" + digits[0] + digits[2]) + Integer.parseInt("" + digits[1] + digits[3]);
+
+        return digits[0] * 10 + digits[1] * 10 + digits[2] + digits[3];
     }
 }
