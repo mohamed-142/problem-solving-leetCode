@@ -4,11 +4,7 @@ class Solution {
         ArrayList<Boolean> result = new ArrayList<>(candies.length);
         int max = Arrays.stream(candies).max().getAsInt();
         for (int i = 0; i < candies.length; i++) {
-            if (candies[i] + extraCandies < max) {
-                result.add(false);
-            } else {
-                result.add(true);
-            }
+            result.add(candies[i] + extraCandies >= max);
         }
         return result;
     }
