@@ -8,7 +8,8 @@ class Solution {
         }
         
         Arrays.sort(digits);
-
-        return digits[0] * 10 + digits[1] * 10 + digits[2] + digits[3];
+        int n1 = digits[0] * 10 + digits[2];
+        int n2 = digits[1] * 10 + digits[3];
+        return n1 + n2;
     }
 }
