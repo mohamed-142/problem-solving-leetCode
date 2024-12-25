@@ -1,11 +1,15 @@
 class Solution {
     public String mergeAlternately(String word1, String word2) {
-        if(word1 == "") {
-            return word2;
-        } else if(word2 == "") {
-            return word1;
+        String result = "";
+        int i = 0;
+        for(; i < word1.length() && i < word2.length(); i++) {
+             result += "" + word1.charAt(i) + word2.charAt(i);
         }
-        System.out.println(word1.charAt(0));
-        return "" + word1.charAt(0) + word2.charAt(0) +  mergeAlternately(word1.substring(1), word2.substring(1));
+        if(i < word1.length()) {
+            result += word1.substring(i);
+        } else if (i < word2.length()) {
+            result += word2.substring(i);
+        }
+        return result;
     }
 }
