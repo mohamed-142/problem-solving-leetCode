@@ -1,22 +1,22 @@
 class Solution {
     public void moveZeroes(int[] nums) {
-        int start = 0;
-        int tries = 0;
-        while (start < nums.length - tries) {
-            if(nums[start] == 0) {
-                moveZeroToLast(nums, start);
-                tries++;
+        int currentIndex = 0;
+        int incrementer = 1;
+        while (currentIndex < nums.length) {
+            if (nums[currentIndex] == 0 && incrementer < nums.length) {
+                if (nums[incrementer] != 0) {
+                    int temp = nums[currentIndex];
+                    nums[currentIndex] = nums[incrementer];
+                    nums[incrementer] = temp;
+                    currentIndex++;
+                    incrementer++;
+                } else {
+                    incrementer++;
+                }
             } else {
-                start++;
+                currentIndex++;
+                incrementer++;
             }
-        }
-    }
-
-    public static void moveZeroToLast(int[] nums, int index) {
-        for (int i = index; i < nums.length - 1; i++) {
-            int temp = nums[i + 1];
-            nums[i + 1] = nums[i];
-            nums[i] = temp;
         }
     }
 }
