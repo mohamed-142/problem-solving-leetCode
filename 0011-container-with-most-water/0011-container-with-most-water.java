@@ -5,9 +5,8 @@ class Solution {
         int end = height.length - 1;
         while (end > begin) {
             int area = (end - begin) * Integer.min(height[begin], height[end]);
-            if (area > maxArea) {
+            if (area > maxArea)
                 maxArea = area;
-            }
             if (height[begin] > height[end])
                 end--;
             else
