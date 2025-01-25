@@ -5,12 +5,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/0011-container-with-most-water) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Two Pointers
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/0011-container-with-most-water) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/0011-container-with-most-water) |
+## Hash Table
+|  |
+| ------- |
+| [1798-max-number-of-k-sum-pairs](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/1798-max-number-of-k-sum-pairs) |
+## Sorting
+|  |
+| ------- |
+| [1798-max-number-of-k-sum-pairs](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 <!---LeetCode Topics End-->
