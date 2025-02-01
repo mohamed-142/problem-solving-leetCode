@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/0011-container-with-most-water) |
+| [0643-maximum-average-subarray-i](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/0643-maximum-average-subarray-i) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Two Pointers
 |  |
@@ -23,4 +24,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1798-max-number-of-k-sum-pairs](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/1798-max-number-of-k-sum-pairs) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/mohamed-142/problem-solving-leetCode/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
